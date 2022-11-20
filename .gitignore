@@ -3,3 +3,6 @@ SignalRNotification/SignalRChatWeb/SignalRChatWeb.csproj.user
 SignalRNotification/SignalRChatWeb/bin/
 SignalRNotification/SignalRChatWeb/obj/
 SignalRNotification/SignalRDatabaseNotificationWeb/obj/
+SignalRNotification/SignalRDatabaseNotificationWeb/bin/
+SignalRNotification/SignalRChatWeb/.config/dotnet-tools.json
+SignalRNotification/SignalRChatWeb/Properties/PublishProfiles/

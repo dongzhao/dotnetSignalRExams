@@ -2,6 +2,12 @@ using SignalRChatWeb.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// ******* *****************************
+// Kestrel: declare to use Kestrel on deployment
+// load default kestrel endpoint url setting from 
+// appsettings.json
+builder.WebHost.UseKestrel(); 
+
 // SigalR: manual added signalR dependency
 builder.Services.AddSignalR();
 
