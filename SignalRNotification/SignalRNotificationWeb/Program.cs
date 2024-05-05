@@ -25,3 +25,14 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+var t = new Task(()=>
+{
+    while(true)
+    {
+        Thread.Sleep(5000);
+        Console.WriteLine("hello,");
+    }
+});
+
+t.Start();
